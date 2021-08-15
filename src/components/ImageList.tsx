@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-const ImageList = () => {
+interface ImageListProps {
+    images: any[]
+}
+
+const ImageList: FC<ImageListProps> = (props) => {
+
+    const images = props.images.map(({ description, id, urls }) => 
+        { 
+            return <img key={id} src={urls.regular} alt={description}/>
+        });
 
     return (
-        <div>Image List</div>
+        <div>{images}</div>
     )
 }
 
