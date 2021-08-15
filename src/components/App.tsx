@@ -11,7 +11,7 @@ import Pagination from './Pagination';
 const accessKey = config.access_key;
 
 const App = () => {
-
+    // initialise states
     const [images, setImages] = useState<[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [imagesPerPage] = useState(4);
