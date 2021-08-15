@@ -22,6 +22,10 @@ Created with React and TypeScript. This is my first project with TypeScript and 
 * Worked with branches / pull requests for each of the smaller tasks 
 * Once I had a minimum working app, I focused on styling and adding features from my backlog that time permitted
 
+### Components
+![image](https://user-images.githubusercontent.com/70478809/129495879-345ce0d2-619c-4e9b-9e54-3a084b397eee.png)
+
+
 ### What was built
 * Decorative header for context (and a little bit of fun!)
 * Search form: form fields consisting of label, text input and button, for user to enter search term 
