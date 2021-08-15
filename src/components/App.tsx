@@ -1,11 +1,17 @@
 import React from 'react';
+import SearchForm from './SearchForm';
+
 
 const App = () => {
+    
+    const onFormSubmit = () => {
+        console.log("Get images from API")
+}
 
 
     return (
      <div>
-         <h1>Hello world</h1>
+         <SearchForm onSubmit={onFormSubmit}/>
     </div>
     );
 }
