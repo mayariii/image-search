@@ -21,7 +21,7 @@ const Pagination: FC<PaginationProps> = ({ imagesPerPage, totalImages, paginate,
             <div className="numbers-container">
             {pageNumbers.map(num => (
                 <li key={num}>
-                    <a onClick={() => paginate(num)} href="{!#}">
+                    <a onClick={() => paginate(num)} href="#!">
                         {num}
                     </a>
                 </li>
