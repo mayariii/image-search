@@ -1,8 +1,52 @@
-# Getting Started with Create React App
+# iMage the Photo Wizard 🧙
+A photo searching app where iMage the photo wizard will conjure up some images for you!
+Enter a search term, and let him work his magic to find related photos. 🪄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can view it live here: https://image-search-app-ts-react.netlify.app/
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/70478809/129495511-2c1ce1df-eae9-4ea6-8214-c8d3defc3075.png)
+![image](https://user-images.githubusercontent.com/70478809/129495526-91523f03-2b60-45b7-b534-253e9b9cb5c5.png)
+
+
+## The Project 📄
+It is a single-page application (SPA) for searching photos via the Unsplash API. 
+### Technologies ⚛️
+Created with React and TypeScript. This is my first project with TypeScript and using Hooks in React. 
+### Approach
+* Started by analysing the requirements of the project
+* Noted initial thoughts/ideas
+* Broke down requirements into user stories in a KanBan board on Miro
+* Focused on the features needed to meet the requirements at a minimum + drew simple wireframe in Miro
+  ![image](https://user-images.githubusercontent.com/70478809/129494815-e5571f39-0e46-4d1b-aec3-aec7aa02bb6f.png)
+* Further broke down each story into smaller tasks
+* Worked with branches / pull requests for each of the smaller tasks 
+* Once I had a minimum working app, I focused on styling and adding features from my backlog that time permitted
+
+### What was built
+* Decorative header for context (and a little bit of fun!)
+* Search form: form fields consisting of label, text input and button, for user to enter search term 
+* Image list: once search term is submitted, relevant images will be rendered 
+* Pagination: max number of results presented per page, and 
+* Mobile responsiveness 
+
+### Future improvements
+UI/UX:
+* Have a 'clear' option for the search field which resets the page
+* Present the results in a masonry-style grid 
+* Feedback if there are no search results returned ('e.g. no results found, try again!'), and do not show page number when no results
+* Improved pagination: next/previous buttons
+* Mobile improvements: bigger form buttons, hide keyboard when submit clicked 
+* Homepage presented with random photos before user search
+* Highlight text field when in focus
+* The ability to click on an image and copy it's URL to clipboard (useful especially for developers wanting to use photos in their projects)
+
+Development:
+* Validation on search input
+* Use of CSS variables or Sass for repeated styles
+* Unit testing with Jest
+
+
+## Setup 💻
 
 In the project directory, you can run:
 
@@ -11,36 +55,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+Or view live: https://image-search-app-ts-react.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for reading - have a great day! ☀️
