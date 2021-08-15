@@ -1,5 +1,5 @@
-import './SearchForm.css';
 import React, { FC, useState } from 'react';
+import './SearchForm.css';
 
 interface SearchProps {
     onSubmit: (arg0: string) => void, 
@@ -18,11 +18,10 @@ const SearchForm: FC<SearchProps> = ({onSubmit}) => {
     return (
         <div>
             <form onSubmit={handleFormSubmit}>
-                <div>
-                    <h1>Photo Search App</h1>
-                    <label>Search for images</label>
-                    <input type="text" value={term} placeholder="Enter your search query" onChange={(e) => setTerm(e.target.value)}/>
-                    <button type="submit">Search</button>
+                <div className="form-container">
+                    <label className="form-item">Search for images:</label>
+                    <input className="form-item form-input-text" type="text" value={term} placeholder="Enter your search query" onChange={(e) => setTerm(e.target.value)}/>
+                    <button className="form-item form-btn-primary" type="submit">Search</button>
                 </div>
             </form>
         </div>
