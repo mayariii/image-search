@@ -8,12 +8,10 @@ interface SearchProps {
 const SearchForm: FC<SearchProps> = ({onSubmit}) => {
     const [term, setTerm] = useState('');
 
-
     const handleFormSubmit = (e: React.SyntheticEvent) => {
         e.preventDefault();
         onSubmit(term);
     }
-    
 
     return (
         <div>
