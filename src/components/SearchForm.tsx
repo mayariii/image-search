@@ -1,11 +1,11 @@
 import './SearchForm.css';
 import React, { FC, useState } from 'react';
 
-interface searchProps {
+interface SearchProps {
     onSubmit: (arg0: string) => void, 
 }
 
-const SearchForm: FC<searchProps> = ({onSubmit}) => {
+const SearchForm: FC<SearchProps> = ({onSubmit}) => {
     const [term, setTerm] = useState('');
 
 
