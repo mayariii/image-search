@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 interface ImageListProps {
-    images: any[]
+    images: any[],
 }
 
 const ImageList: FC<ImageListProps> = (props) => {
