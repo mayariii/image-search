@@ -12,6 +12,10 @@ You can view it live here: https://image-search-app-ts-react.netlify.app/
 It is a single-page application (SPA) for searching photos via the Unsplash API. 
 ### Technologies ⚛️
 Created with React and TypeScript. This is my first project with TypeScript and using Hooks in React. 
+
+Deployed to Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec452b12-8b7a-4fc4-8782-3f27a6844e10/deploy-status)](https://app.netlify.com/sites/image-search-app-ts-react/deploys)
 ### Approach
 * Started by analysing the requirements of the project
 * Noted initial thoughts/ideas
