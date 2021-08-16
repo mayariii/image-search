@@ -35,8 +35,7 @@ Deployed to Netlify
 * Search form: form fields consisting of label, text input and button, for user to enter search term 
 * Image list: once search term is submitted, relevant images will be rendered 
 * Pagination: max number of results presented per page
-* Accessibility: Semantic HTML elements
-* Mobile responsiveness 
+* Accessibility: Semantic HTML elements, form label associated with text input to ensure purpose of form control is presented to screen readers
 
 ### Future improvements
 UI/UX:
@@ -53,7 +52,6 @@ UI/UX:
 
 Accessibility:
 * Update primary colour to meet contrast ratio guidelines (make darker, e.g. #0039F5 passes at normal and large text sizes) to ensure visibility for users with low vision
-* Add 'for' attribute in form label to ensure it's associated with text input to ensure purpose of form control is presented to screen readers
 * Add section elements within <main> for improved navigation between content
 
 Development:
