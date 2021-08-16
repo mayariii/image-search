@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component renders correctly 1`] = `
+<div
+  className="flex-container"
+>
+  <header
+    className="header-container"
+  >
+    <div>
+      <h1>
+        iMage the Photo Wizard
+      </h1>
+      <p>
+        Enter a search term and I will conjure up some photos!
+      </p>
+    </div>
+    <img
+      alt="Wizard Animation"
+      className="header-image"
+      src="wizard.gif"
+    />
+  </header>
+  <main>
+    <div>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-container"
+        >
+          <label
+            className="form-item"
+            htmlFor="searchInput"
+          >
+            Search for images:
+          </label>
+          <input
+            className="form-item form-input-text"
+            id="searchInput"
+            onChange={[Function]}
+            placeholder="Enter your search query"
+            type="text"
+            value=""
+          />
+          <button
+            className="form-item form-btn-primary"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="image-list-container"
+    />
+  </main>
+  <footer>
+    <nav>
+      <div
+        className="numbers-container"
+      />
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        Current page: 
+        1
+      </p>
+    </nav>
+  </footer>
+</div>
+`;
