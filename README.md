@@ -48,6 +48,7 @@ UI/UX:
 * Homepage presented with random photos before user search
 * Highlight text field when in focus
 * Update URL with current page number
+* Disable Search button until value is typed in
 * The ability to click on an image and copy it's URL to clipboard (useful especially for developers wanting to use photos in their projects)
 
 Accessibility:
@@ -60,7 +61,7 @@ Development:
 * Styling: Use of CSS variables/Sass for repeated styles + Sass modules to compile into one stylesheet
 * Use of React Router for improved pagination
 * Use of user keys: user to enter own API key (current key temporary for quick access for reviewer, will be changed and not included in future)  
-* Unit testing with Jest
+* Unit testing with Jest to include form submission and fetching data
 
 
 ## Setup 💻
