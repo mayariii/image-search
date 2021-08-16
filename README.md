@@ -1,6 +1,6 @@
 # iMage the Photo Wizard 🧙
 A photo searching app where iMage the photo wizard will conjure up some images for you!
-Enter a search term, and let him work his magic to find related photos. 🪄
+Enter a search term, and let him work his magic to find related photos. �
 
 You can view it live here: https://image-search-app-ts-react.netlify.app/
 
