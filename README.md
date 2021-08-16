@@ -30,7 +30,8 @@ Created with React and TypeScript. This is my first project with TypeScript and 
 * Decorative header for context (and a little bit of fun!)
 * Search form: form fields consisting of label, text input and button, for user to enter search term 
 * Image list: once search term is submitted, relevant images will be rendered 
-* Pagination: max number of results presented per page, and 
+* Pagination: max number of results presented per page
+* Accessibility: Semantic HTML elements
 * Mobile responsiveness 
 
 ### Future improvements
@@ -42,11 +43,18 @@ UI/UX:
 * Mobile improvements: bigger form buttons, hide keyboard when submit clicked 
 * Homepage presented with random photos before user search
 * Highlight text field when in focus
+* Update URL with current page number
 * The ability to click on an image and copy it's URL to clipboard (useful especially for developers wanting to use photos in their projects)
+
+Accessibility:
+* Update primary colour to meet contrast ratio guidelines (make darker, e.g. #0039F5 passes at normal and large text sizes) to ensure visibility for users with low vision
+* Add 'for' attribute in form label to ensure it's associated with text input to ensure purpose of form control is presented to screen readers
+* Add section elements within <main> for improved navigation between content
 
 Development:
 * Validation on search input
-* Use of CSS variables or Sass for repeated styles
+* Styling: Use of CSS variables/Sass for repeated styles + Sass modules to compile into one stylesheet
+* Use of React Router for improved pagination
 * Unit testing with Jest
 
 
